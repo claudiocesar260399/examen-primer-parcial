@@ -71,6 +71,7 @@ public class Main {
     }
 
     public static void printReservations(Hotel hotel) {
+
         System.out.println("---------------------------------------------------------------------");
         System.out.println(hotel.getName() + " - reservations");
         for (Reservation reservation : hotel.getReservations()) {
